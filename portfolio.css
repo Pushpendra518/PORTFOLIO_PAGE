@@ -1,0 +1,45 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color:pink;
+    color:red;
+    text-align: center;
+    padding: 2em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color:pink;
+    padding: 1em 0;
+}
+nav a {
+    text-decoration: none;
+    color: red;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+.project {
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color:pink;
+    color:red;
+}
